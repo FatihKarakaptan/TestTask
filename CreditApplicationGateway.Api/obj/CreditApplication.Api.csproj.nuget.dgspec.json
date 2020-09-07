@@ -1,0 +1,491 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Api\\CreditApplication.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplication.Gateway.Contracts\\CreditApplication.Gateway.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplication.Gateway.Contracts\\CreditApplication.Gateway.Contracts.csproj",
+        "projectName": "CreditApplication.Gateway.Contracts",
+        "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplication.Gateway.Contracts\\CreditApplication.Gateway.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplication.Gateway.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplication.Gateway\\CreditApplication.Gateway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplication.Gateway\\CreditApplication.Gateway.csproj",
+        "projectName": "CreditApplication.Gateway",
+        "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplication.Gateway\\CreditApplication.Gateway.csproj",
+        "packagesPath": "C:\\Users\\Fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplication.Gateway\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplication.Gateway.Contracts\\CreditApplication.Gateway.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplication.Gateway.Contracts\\CreditApplication.Gateway.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Api.Contracts\\CreditApplication.Api.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Api.Contracts\\CreditApplication.Api.Contracts.csproj",
+        "projectName": "CreditApplication.Api.Contracts",
+        "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Api.Contracts\\CreditApplication.Api.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Api.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Api\\CreditApplication.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Api\\CreditApplication.Api.csproj",
+        "projectName": "CreditApplication.Api",
+        "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Api\\CreditApplication.Api.csproj",
+        "packagesPath": "C:\\Users\\Fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplication.Gateway\\CreditApplication.Gateway.csproj": {
+                "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplication.Gateway\\CreditApplication.Gateway.csproj"
+              },
+              "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Api.Contracts\\CreditApplication.Api.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Api.Contracts\\CreditApplication.Api.Contracts.csproj"
+              },
+              "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Business.Contracts\\CreditApplication.Business.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Business.Contracts\\CreditApplication.Business.Contracts.csproj"
+              },
+              "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Business\\CreditApplication.Business.csproj": {
+                "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Business\\CreditApplication.Business.csproj"
+              },
+              "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Data\\CreditApplication.Data.csproj": {
+                "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Data\\CreditApplication.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Business.Contracts\\CreditApplication.Business.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Business.Contracts\\CreditApplication.Business.Contracts.csproj",
+        "projectName": "CreditApplication.Business.Contracts",
+        "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Business.Contracts\\CreditApplication.Business.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Business.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Api.Contracts\\CreditApplication.Api.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Api.Contracts\\CreditApplication.Api.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Business\\CreditApplication.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Business\\CreditApplication.Business.csproj",
+        "projectName": "CreditApplication.Business",
+        "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Business\\CreditApplication.Business.csproj",
+        "packagesPath": "C:\\Users\\Fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplication.Gateway.Contracts\\CreditApplication.Gateway.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplication.Gateway.Contracts\\CreditApplication.Gateway.Contracts.csproj"
+              },
+              "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Business.Contracts\\CreditApplication.Business.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Business.Contracts\\CreditApplication.Business.Contracts.csproj"
+              },
+              "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Data.Contracts\\CreditApplication.Data.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Data.Contracts\\CreditApplication.Data.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Data.Contracts\\CreditApplication.Data.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Data.Contracts\\CreditApplication.Data.Contracts.csproj",
+        "projectName": "CreditApplication.Data.Contracts",
+        "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Data.Contracts\\CreditApplication.Data.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Data.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Data\\CreditApplication.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Data\\CreditApplication.Data.csproj",
+        "projectName": "CreditApplication.Data",
+        "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Data\\CreditApplication.Data.csproj",
+        "packagesPath": "C:\\Users\\Fatih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Fatih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Data.Contracts\\CreditApplication.Data.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Fatih\\Desktop\\Work\\CreditApplicationGateway\\CreditApplicationGateway.Data.Contracts\\CreditApplication.Data.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

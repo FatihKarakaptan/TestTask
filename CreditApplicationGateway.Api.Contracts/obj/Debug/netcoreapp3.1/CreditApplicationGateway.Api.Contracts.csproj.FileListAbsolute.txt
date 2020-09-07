@@ -1,0 +1,8 @@
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplicationGateway.Api.Contracts\bin\Debug\netcoreapp3.1\CreditApplicationGateway.Api.Contracts.deps.json
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplicationGateway.Api.Contracts\bin\Debug\netcoreapp3.1\CreditApplicationGateway.Api.Contracts.dll
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplicationGateway.Api.Contracts\bin\Debug\netcoreapp3.1\CreditApplicationGateway.Api.Contracts.pdb
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplicationGateway.Api.Contracts\obj\Debug\netcoreapp3.1\CreditApplicationGateway.Api.Contracts.AssemblyInfoInputs.cache
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplicationGateway.Api.Contracts\obj\Debug\netcoreapp3.1\CreditApplicationGateway.Api.Contracts.AssemblyInfo.cs
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplicationGateway.Api.Contracts\obj\Debug\netcoreapp3.1\CreditApplicationGateway.Api.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplicationGateway.Api.Contracts\obj\Debug\netcoreapp3.1\CreditApplicationGateway.Api.Contracts.dll
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplicationGateway.Api.Contracts\obj\Debug\netcoreapp3.1\CreditApplicationGateway.Api.Contracts.pdb

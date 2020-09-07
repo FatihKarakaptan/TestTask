@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CreditApplication.Gateway.Contracts\CreditApplication.Gateway.Contracts.csproj" />
+    <ProjectReference Include="..\CreditApplicationGateway.Business.Contracts\CreditApplication.Business.Contracts.csproj" />
+    <ProjectReference Include="..\CreditApplicationGateway.Data.Contracts\CreditApplication.Data.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

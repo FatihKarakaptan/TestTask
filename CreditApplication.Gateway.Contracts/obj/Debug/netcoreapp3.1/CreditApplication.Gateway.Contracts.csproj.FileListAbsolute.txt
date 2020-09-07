@@ -1,0 +1,9 @@
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplication.Gateway.Contracts\obj\Debug\netcoreapp3.1\CreditApplication.Gateway.Contracts.csprojAssemblyReference.cache
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplication.Gateway.Contracts\obj\Debug\netcoreapp3.1\CreditApplication.Gateway.Contracts.AssemblyInfoInputs.cache
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplication.Gateway.Contracts\obj\Debug\netcoreapp3.1\CreditApplication.Gateway.Contracts.AssemblyInfo.cs
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplication.Gateway.Contracts\obj\Debug\netcoreapp3.1\CreditApplication.Gateway.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplication.Gateway.Contracts\bin\Debug\netcoreapp3.1\CreditApplication.Gateway.Contracts.deps.json
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplication.Gateway.Contracts\bin\Debug\netcoreapp3.1\CreditApplication.Gateway.Contracts.dll
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplication.Gateway.Contracts\bin\Debug\netcoreapp3.1\CreditApplication.Gateway.Contracts.pdb
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplication.Gateway.Contracts\obj\Debug\netcoreapp3.1\CreditApplication.Gateway.Contracts.dll
+C:\Users\Fatih\Desktop\Work\CreditApplicationGateway\CreditApplication.Gateway.Contracts\obj\Debug\netcoreapp3.1\CreditApplication.Gateway.Contracts.pdb

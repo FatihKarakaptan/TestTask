@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Layer", "Data Access Layer", "{A811C1C3-8D7E-4765-9D32-3924B21A0BFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Layer", "Business Layer", "{B5622B22-18F5-49FD-A147-6A3847D0A321}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{6FFA5CE4-A0FB-431A-95B7-6F6C873DB79C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{02D1AB36-0E22-46B0-8CE5-1CE6C6F386D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{5799C656-F0FD-4C6A-90E6-C0B764F0CA65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditApplication.Api", "CreditApplicationGateway.Api\CreditApplication.Api.csproj", "{C96B8264-4F42-49ED-A2D2-3E7DC7AC7E88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditApplication.Api.Contracts", "CreditApplicationGateway.Api.Contracts\CreditApplication.Api.Contracts.csproj", "{B065CED4-14A2-4668-903D-76A518DDC4DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditApplication.Business", "CreditApplicationGateway.Business\CreditApplication.Business.csproj", "{0827C126-642E-456C-A2EC-5EFF4991F248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditApplication.Business.Contracts", "CreditApplicationGateway.Business.Contracts\CreditApplication.Business.Contracts.csproj", "{E4F20DA9-6F18-4A72-9398-F587EAE5D79D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditApplication.Data", "CreditApplicationGateway.Data\CreditApplication.Data.csproj", "{1C9A4DA5-53F7-47F6-BF31-660AC721E08B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditApplication.Data.Contracts", "CreditApplicationGateway.Data.Contracts\CreditApplication.Data.Contracts.csproj", "{338BD3EF-90C2-4903-88AA-6DD368339A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditApplication.Gateway", "CreditApplication.Gateway\CreditApplication.Gateway.csproj", "{6D542125-15D8-4CDE-A150-2F2749D1C223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditApplication.Gateway.Contracts", "CreditApplication.Gateway.Contracts\CreditApplication.Gateway.Contracts.csproj", "{F13C48E3-ABD3-4772-80F5-7415246811CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C96B8264-4F42-49ED-A2D2-3E7DC7AC7E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96B8264-4F42-49ED-A2D2-3E7DC7AC7E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96B8264-4F42-49ED-A2D2-3E7DC7AC7E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96B8264-4F42-49ED-A2D2-3E7DC7AC7E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B065CED4-14A2-4668-903D-76A518DDC4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B065CED4-14A2-4668-903D-76A518DDC4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B065CED4-14A2-4668-903D-76A518DDC4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B065CED4-14A2-4668-903D-76A518DDC4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0827C126-642E-456C-A2EC-5EFF4991F248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0827C126-642E-456C-A2EC-5EFF4991F248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0827C126-642E-456C-A2EC-5EFF4991F248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0827C126-642E-456C-A2EC-5EFF4991F248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F20DA9-6F18-4A72-9398-F587EAE5D79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F20DA9-6F18-4A72-9398-F587EAE5D79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F20DA9-6F18-4A72-9398-F587EAE5D79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F20DA9-6F18-4A72-9398-F587EAE5D79D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C9A4DA5-53F7-47F6-BF31-660AC721E08B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9A4DA5-53F7-47F6-BF31-660AC721E08B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9A4DA5-53F7-47F6-BF31-660AC721E08B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C9A4DA5-53F7-47F6-BF31-660AC721E08B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{338BD3EF-90C2-4903-88AA-6DD368339A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{338BD3EF-90C2-4903-88AA-6DD368339A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{338BD3EF-90C2-4903-88AA-6DD368339A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{338BD3EF-90C2-4903-88AA-6DD368339A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D542125-15D8-4CDE-A150-2F2749D1C223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D542125-15D8-4CDE-A150-2F2749D1C223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D542125-15D8-4CDE-A150-2F2749D1C223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D542125-15D8-4CDE-A150-2F2749D1C223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13C48E3-ABD3-4772-80F5-7415246811CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13C48E3-ABD3-4772-80F5-7415246811CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13C48E3-ABD3-4772-80F5-7415246811CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13C48E3-ABD3-4772-80F5-7415246811CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5799C656-F0FD-4C6A-90E6-C0B764F0CA65} = {02D1AB36-0E22-46B0-8CE5-1CE6C6F386D2}
+		{C96B8264-4F42-49ED-A2D2-3E7DC7AC7E88} = {5799C656-F0FD-4C6A-90E6-C0B764F0CA65}
+		{B065CED4-14A2-4668-903D-76A518DDC4DA} = {5799C656-F0FD-4C6A-90E6-C0B764F0CA65}
+		{0827C126-642E-456C-A2EC-5EFF4991F248} = {B5622B22-18F5-49FD-A147-6A3847D0A321}
+		{E4F20DA9-6F18-4A72-9398-F587EAE5D79D} = {B5622B22-18F5-49FD-A147-6A3847D0A321}
+		{1C9A4DA5-53F7-47F6-BF31-660AC721E08B} = {A811C1C3-8D7E-4765-9D32-3924B21A0BFC}
+		{338BD3EF-90C2-4903-88AA-6DD368339A8B} = {A811C1C3-8D7E-4765-9D32-3924B21A0BFC}
+		{6D542125-15D8-4CDE-A150-2F2749D1C223} = {6FFA5CE4-A0FB-431A-95B7-6F6C873DB79C}
+		{F13C48E3-ABD3-4772-80F5-7415246811CE} = {6FFA5CE4-A0FB-431A-95B7-6F6C873DB79C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C5E7F1E-60FD-4B9A-8557-FEBC97D31541}
+	EndGlobalSection
+EndGlobal

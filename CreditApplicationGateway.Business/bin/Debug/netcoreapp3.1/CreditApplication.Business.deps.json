@@ -1,0 +1,71 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CreditApplication.Business/1.0.0": {
+        "dependencies": {
+          "CreditApplication.Business.Contracts": "1.0.0",
+          "CreditApplication.Data.Contracts": "1.0.0",
+          "CreditApplication.Gateway.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "CreditApplication.Business.dll": {}
+        }
+      },
+      "CreditApplication.Api.Contracts/1.0.0": {
+        "runtime": {
+          "CreditApplication.Api.Contracts.dll": {}
+        }
+      },
+      "CreditApplication.Business.Contracts/1.0.0": {
+        "dependencies": {
+          "CreditApplication.Api.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "CreditApplication.Business.Contracts.dll": {}
+        }
+      },
+      "CreditApplication.Data.Contracts/1.0.0": {
+        "runtime": {
+          "CreditApplication.Data.Contracts.dll": {}
+        }
+      },
+      "CreditApplication.Gateway.Contracts/1.0.0": {
+        "runtime": {
+          "CreditApplication.Gateway.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CreditApplication.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CreditApplication.Api.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CreditApplication.Business.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CreditApplication.Data.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CreditApplication.Gateway.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

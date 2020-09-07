@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CreditApplication.Business.Contracts/1.0.0": {
+        "dependencies": {
+          "CreditApplication.Api.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "CreditApplication.Business.Contracts.dll": {}
+        }
+      },
+      "CreditApplication.Api.Contracts/1.0.0": {
+        "runtime": {
+          "CreditApplication.Api.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CreditApplication.Business.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CreditApplication.Api.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
