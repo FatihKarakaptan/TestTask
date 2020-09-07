@@ -2,5 +2,6 @@ import { CreditApplicationRequest } from "../../Models/CreditApplication/Request
 import axios from 'axios';
 
 export const GetCreditApplication = (data: CreditApplicationRequest) => {
-    return axios.post("http://localhost:50244/api/CreditApplication", {data});
+    //Give Controller Address
+    return axios.post("http://localhost:50244/api/CreditApplication", data);
 }
